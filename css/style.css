@@ -10,7 +10,7 @@
     --color-black: #101010;
     --color-white: #f0f0f0;
     --color-gray: #5c5c5c;
-    --color-destaque: #1d2adf;
+    --color-destaque: #757FB2;
 
     --font-title-desktop: 3rem;
     --font-span-desktop: 1.5rem;
@@ -67,7 +67,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 1rem; 
+    padding: 1.5rem 1rem;
 }
 
 .content-user {
@@ -113,7 +113,7 @@ body {
 }
 
 .info-user p {
-    margin-top: auto; 
+    margin-top: auto;
     padding-top: 1rem;
     font-size: 1rem;
     color: var(--color-black);
@@ -195,7 +195,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0!important;
+    padding: 0 !important;
     gap: 1rem;
 }
 
@@ -373,7 +373,8 @@ body {
     justify-content: center;
     text-align: center;
     background-color: var(--color-destaque);
-    padding: 1rem; /* Certificando que a seção de contato tenha padding */
+    padding: 1rem;
+    /* Certificando que a seção de contato tenha padding */
 }
 
 .content-contato {
