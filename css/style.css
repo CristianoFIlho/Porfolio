@@ -78,14 +78,16 @@ body {
 }
 
 .img-user {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    max-width: 95px;
+    margin: 0 auto;
 }
 
 .img-user img {
-    width: 120px;
-    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .info-user {
