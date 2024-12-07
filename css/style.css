@@ -12,13 +12,9 @@
     --color-gray: #5c5c5c;
     --color-destaque: #757FB2;
 
-    --font-title-desktop: 3rem;
-    --font-span-desktop: 1.5rem;
-    --font-text-desktop: 1.2rem;
-
-    --font-title-mobile: 2rem;
-    --font-span-mobile: 1.2rem;
-    --font-text-mobile: 1rem;
+    --font-title: clamp(2rem, 5vw, 3rem);
+    --font-span: clamp(1.2rem, 2.5vw, 1.5rem);
+    --font-text: clamp(1rem, 2vw, 1.2rem);
 }
 
 body {
@@ -31,7 +27,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 95%;
     max-width: 1800px;
     padding: 1rem;
     display: flex;
@@ -41,6 +37,7 @@ body {
     gap: 1.2rem;
     box-sizing: border-box;
     min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 .card {
